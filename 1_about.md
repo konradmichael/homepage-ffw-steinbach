@@ -4,7 +4,7 @@ permalink: /about
 layout: page
 ---
 
-Gegründet 752 v.C. vom russischen ErzMonarchen Hansi Feuersbrunst.
+Gegründet 1906. Aktuelles Fahrzeug: TSF.
 
 Unsere Patenwehr ist die **[Freiwillige Feuerwehr Neunkirchen](https://de-de.facebook.com/FeuerwehrNeunkirchen)**
 
