@@ -1,0 +1,32 @@
+<div id="nanogallery2" data-nanogallery2='{ "userID": "34858669@N00", "kind": "flickr" }' ></div>
+
+<!--http://nanogallery2.nanostudio.org/datasource.html-->
+<!--
+<div id="nanogallery2" data-nanogallery2>
+	<a href="../assets/img/cat1/pic1.jpg" data-ngkind="album" data-ngid="1" data-ngThumb="../assets/img/cat1/pic1.jpg">Album Tiere</a>
+	<a href="../assets/img/cat1/pic1.jpg" data-ngid="10" data-ngalbumid="1" data-ngThumb="../assets/img/cat1/pic1.jpg">Album 1 / Image 1</a>
+	<a href="../assets/img/cat1/pic2.jpg" data-ngid="11" data-ngalbumid="1" data-ngThumb="../assets/img/cat1/pic2.jpg">Album 1 / Image 2</a>
+	<a href="../assets/img/cat1/pic3.jpg" data-ngid="12" data-ngalbumid="1" data-ngThumb="../assets/img/cat1/pic3.jpg">Album 1 / Image 1</a>
+	<a href="../assets/img/cat1/pic4.jpg" data-ngid="13" data-ngalbumid="1" data-ngThumb="../assets/img/cat1/pic4.jpg">Album 1 / Image 1</a>
+	<a href="../assets/img/cat2/pic5.jpg" data-ngkind="album" data-ngid="2" data-ngThumb="../assets/img/cat2/pic5.jpg">Album Technik</a>
+	<a href="../assets/img/cat2/pic5.jpg" data-ngid="20" data-ngalbumid="2" data-ngThumb="../assets/img/cat2/pic5.jpg">Album 2 / Image 1</a>
+	<a href="../assets/img/cat2/pic6.jpg" data-ngid="21" data-ngalbumid="2" data-ngThumb="../assets/img/cat2/pic6.jpg">Album 2 / Image 2</a>
+	<a href="../assets/img/cat2/pic7.jpg" data-ngid="22" data-ngalbumid="2" data-ngThumb="../assets/img/cat2/pic7.jpg">Album 2 / Image 2</a>
+</div>
+
+<p>&nbsp;</p>
+
+<div id="my_nanogallery2" data-nanogallery2>
+	<a href="../assets/img/cat1/pic1.jpg" data-ngkind="album" data-ngid="1" data-ngThumb="../assets/img/cat1/pic1.jpg">Album Tiere</a>
+
+  {% assign image_files = site.static_files | where: "image", true %}
+  {% for myimage in image_files %}
+    <a href="../{{ myimage.path }}" data-ngid="10" data-ngalbumid="1" data-ngThumb="../{{ myimage.path }}">{{ myimage.cat }} / {{ myimage.name }}</a>
+  {% endfor %}
+</div>
+
+<p>&nbsp;</p>
+{% for myimage in image_files %}
+<img src="../{{ myimage.path }}" alt="{{ myimage.name }}">{{ myimage.name }}
+{% endfor %}
+-->

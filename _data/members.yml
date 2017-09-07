@@ -1,0 +1,15 @@
+- name: Armin Persau
+  title: Komandant
+  pic: tiger.jpg
+
+- name: Roland Knoll
+  title: 2ter Komandant
+  pic: katze.jpg
+
+- name: Roland Wartenfelser
+  title: Vorstand
+  pic: giraffe.jpg
+
+- name: Wolfgang
+  title: Vorstand
+  pic: ameise.jpg

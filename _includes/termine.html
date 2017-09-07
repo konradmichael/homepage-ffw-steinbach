@@ -1,0 +1,6 @@
+<dl class="termin">
+  {% for item in site.data.termine %}
+  <dt class="termin-date">{{ item.date }}</dt>
+  <dd class="termin-desc">{{ item.desc }}</dd>
+{% endfor %}
+</dl>

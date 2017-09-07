@@ -1,0 +1,52 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+.site-header {
+	border-top: 5px solid #950606;
+	background: #cd1719;
+}
+
+.site-nav .page-link {
+	color: #FFF;
+}
+
+.site-title, .site-title:visited  {
+	color: #FFF;
+	font-weight: bold;
+	font-size: 2em;
+}
+
+#members {
+	padding: 0;
+	margin: 0;
+}
+
+.member {
+    display: inline-block;
+}
+
+.member-title {
+    display: block;
+		font-weight: bold;
+}
+
+.member-name {
+    display: block;
+}
+
+.member-img {
+    float: left;
+    width: 200px;
+}
+
+.termin-date {
+	color: #444;
+	font-weight: bold;
+	font-style: italic;
+}
+
+.termin-desc {
+	padding: 0 0 .5em 1em;
+}

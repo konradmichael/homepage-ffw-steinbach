@@ -1,0 +1,10 @@
+
+<ul id="members">
+{% for member in site.data.members %}
+  <li class="member">
+    <span class="member-img"><img src="assets/img/{{ member.pic }}" alt="member.name"></span>
+    <span class="member-name">{{ member.name }}</span>
+    <span class="member-title">{{ member.title }}</span>
+  </li>
+{% endfor %}
+</ul>
